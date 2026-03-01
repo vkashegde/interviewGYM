@@ -70,7 +70,7 @@ export function NewSessionModal({ open, onOpenChange, onStartSession }: NewSessi
               <option value="database">Database Design</option>
               <option value="api-design">API Design</option>
             </Select>
-            <p className="text-xs text-gray-500 mt-1">
+            <p className="text-xs text-gray-600 mt-1">
               Choose the core focus of your practice session.
             </p>
           </div>

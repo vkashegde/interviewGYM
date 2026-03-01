@@ -14,7 +14,6 @@ export default function SessionsPage() {
 
   const handleStartSession = (data: SessionData) => {
     // Handle session start - navigate to appropriate interview page based on mode
-    console.log("Starting session with:", data);
     if (data.mode === "voice") {
       router.push(`/interview/audio?topic=${data.topic}&role=${data.roleType}&difficulty=${data.difficulty}`);
     } else {

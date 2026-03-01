@@ -45,7 +45,7 @@ export function InterviewFooter() {
           </div>
         </div>
 
-        <p className="text-xs text-gray-500 text-center mt-3">
+        <p className="text-xs text-gray-600 text-center mt-3">
           Your response is being recorded for feedback. All data is encrypted and private.
         </p>
       </footer>

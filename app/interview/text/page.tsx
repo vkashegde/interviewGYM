@@ -18,12 +18,11 @@ export default function TextInterviewPage() {
 
   const handleSave = (content: string) => {
     // Handle autosave
-    console.log("Autosaving:", content);
+    // Autosave logic would go here
   };
 
   const handleSubmit = (content: string) => {
     // Handle answer submission
-    console.log("Submitting answer:", content);
     // Navigate to next question or show feedback
   };
 

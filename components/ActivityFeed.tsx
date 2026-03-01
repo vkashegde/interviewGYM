@@ -69,7 +69,7 @@ export function ActivityFeed({ activities = defaultActivities }: ActivityFeedPro
                     <h3 className="text-sm font-semibold text-gray-900">
                       {activity.title}
                     </h3>
-                    <span className="text-xs text-gray-500">{activity.time}</span>
+                    <span className="text-xs text-gray-600">{activity.time}</span>
                   </div>
                   {activity.description && (
                     <p className="text-sm text-gray-600">{activity.description}</p>

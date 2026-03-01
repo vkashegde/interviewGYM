@@ -64,7 +64,7 @@ export function Sidebar() {
           </Avatar>
           <div className="flex-1 min-w-0">
             <p className="text-sm font-medium text-gray-900 truncate">Alex Chen</p>
-            <p className="text-xs text-gray-500 truncate">SDE-II Candidate</p>
+            <p className="text-xs text-gray-600 truncate">SDE-II Candidate</p>
           </div>
         </div>
       </div>

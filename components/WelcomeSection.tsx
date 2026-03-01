@@ -35,7 +35,7 @@ export function WelcomeSection() {
                 </div>
               </button>
             </div>
-            <div className="flex gap-3 mt-6">
+            <div className="flex gap-4 mt-6">
               <Button className="flex-1">Join Call</Button>
               <Button variant="outline" className="flex-1">
                 Reschedule
@@ -47,7 +47,7 @@ export function WelcomeSection() {
         {/* Overall Performance Card */}
         <Card>
           <CardContent className="p-6">
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-4">
+            <p className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-4">
               Overall Performance
             </p>
             <div className="flex items-baseline gap-2 mb-4">

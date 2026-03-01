@@ -108,7 +108,7 @@ export function RecommendedDrills({ drills = defaultDrills }: RecommendedDrillsP
                     {drill.modules} • {drill.level}
                   </p>
                   <div className="space-y-2">
-                    <div className="flex justify-between text-xs text-gray-500">
+                    <div className="flex justify-between text-xs text-gray-600">
                       <span>Progress</span>
                       <span>{drill.progress}%</span>
                     </div>

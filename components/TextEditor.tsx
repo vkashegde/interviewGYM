@@ -72,12 +72,16 @@ export function TextEditor({ onSave, onSubmit }: TextEditorProps) {
 
       <div className="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          {lastSaved && (
-            <div className="flex items-center gap-2 text-xs text-gray-500">
-              <Info className="w-4 h-4" />
-              <span>Autosaved {Math.floor((Date.now() - lastSaved.getTime()) / 1000)}s ago</span>
-            </div>
-          )}
+          {lastSaved && (() => {
+            const secondsAgo = Math.floor((Date.now() - lastSaved.getTime()) / 1000);
+            const timeText = secondsAgo < 5 ? "Just now" : `${secondsAgo}s ago`;
+            return (
+              <div className="flex items-center gap-2 text-xs text-gray-600">
+                <Info className="w-4 h-4" />
+                <span>Autosaved {timeText}</span>
+              </div>
+            );
+          })()}
 
           <button
             onClick={() => setIsListening(!isListening)}
